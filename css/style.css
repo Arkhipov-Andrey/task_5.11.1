@@ -1,0 +1,111 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: top no-repeat url(../images/0.jpg);
+  background-size: cover;
+}
+
+header h1 {
+  color: dodgerblue;
+  font-size: 4rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  text-align: center;
+  border-top: 1px solid rgb(128, 128, 128);
+}
+
+.copyright {
+  color: rgb(108, 117, 125);
+  font-family: "Times New Roman", Times, serif;
+}
+
+footer .links {
+  margin-bottom: 50px;
+}
+
+footer .links>a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.news {
+  background-color: #fff;
+  padding: 50px 0 32px;
+}
+
+article {
+  width: 768px;
+  margin: 0 auto 32px;
+  padding: 6px 15px;
+  border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+article:last-child {
+  border-bottom: none;
+}
+
+article a {
+  color: rgb(33, 37, 41);
+  text-decoration: none;
+}
+
+article a:hover {
+  color: #0085a1;
+}
+
+article h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 5px;
+}
+
+article h2.new::before {
+  content: "New";
+  color: red;
+  margin-right: 5px;
+}
+
+.article-meta {
+  color: rgb(134, 142, 150);
+  margin-bottom: 5px;
+}
+
+article img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+div.source a {
+  color: rgb(108, 117, 125);
+  text-decoration: underline;
+}
+
+div.annotation {
+  background-color: #97b4c2;
+  border-left: 15px solid dodgerblue;
+  padding: 7px 5px;
+}
+
+div.annotation span {
+  font-weight: 900;
+}
+
+article:nth-child(even) {
+  background-color: #d5d9db;
+}
